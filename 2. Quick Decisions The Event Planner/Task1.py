@@ -6,6 +6,6 @@
 #venue = "large hall" if attendees > 100 else "conference room"
 #print(venue)
 
-attendees = int(input("Enter number of attendees: "))
+attendees = int(input("Enter number of attendees: ")) #cannot use > to compare a str to an int
 venue = "large hall" if attendees > 100 else "conference room"
 print(venue)
